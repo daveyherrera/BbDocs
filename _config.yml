@@ -1,0 +1,29 @@
+relative_links:
+  enabled:     true
+  collections: true
+  exclude:
+    - README.md
+
+highlighter: rouge
+
+tipue_search:
+  include:
+    pages: true
+
+collections:
+  authors:
+    output: true
+
+theme: materialize-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-relative-links
+  - github-pages
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-173992978-1
